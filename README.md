@@ -9,10 +9,10 @@ The purpose of this analysis is to refactor the existing code to improve preform
 In  our initial code we use if statements to obtain the values on the 'All Stocks Analysis' sheet. While the code worked and provided us the correct information we needed, the if statements were checking the value of each row for the entire year of data. In our refactored code, we replaced the if statements with for loops, which decreased the time it took for the analysis to complete by .625 seconds as show below.
 
 Time for Analysis when using IF Statements
-VBA_Challenge_2018.png.png
+https://github.com/vstuopis/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png.png
 
 Time for Analysis while using the for loops
-VBA_Challenge_2018.png
+https://github.com/vstuopis/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png
 
 ## Refactored Code: An Advantage and Disadvantage
 ### Advantage:
