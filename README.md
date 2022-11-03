@@ -15,10 +15,10 @@ In  our initial code we use if statements to obtain the values on the 'All Stock
 ![Alt text](https://github.com/vstuopis/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 ## Refactored Code: An Advantage and Disadvantage
-### Advantage:
+### Advantage
 One advantage of refactored code is the fact that by refactoring it, you are consolidating the code causing it to work moore efficiently. 
 
-### Disadvantage:
+### Disadvantage
 One disadvantage of refactored code is that this newly refactored code may introduce new bugs into the code base. By touching the existing code that works, any changes could have downstream impacts which can be expensive to correct.
 
 ## VBA Scripts: Original v Refactored
