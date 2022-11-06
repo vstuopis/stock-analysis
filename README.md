@@ -6,7 +6,7 @@ The purpose of this analysis is to refactor the existing code to improve preform
 
 ## Stock Analysis Results
 
-In  our initial code we use if statements to obtain the values on the 'All Stocks Analysis' sheet. While the code worked and provided us the correct information we needed, the if statements were checking the value of each row for the entire year of data. In our refactored code, we replaced the if statements with for loops, which decreased the time it took for the analysis to complete by .625 seconds as show below.
+In  our initial code we use if statements to obtain the values on the 'All Stocks Analysis' sheet. While the code worked and provided us the correct information we needed, the if statements were checking the value of each row for the entire year of data. In our refactored code, we replaced the if statements with for loops, which decreased the time it took for the analysis to complete by .641 seconds as show below.
 
 ### Time for Analysis when using IF Statements
 ![Alt text](https://github.com/vstuopis/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png.png)
@@ -16,7 +16,7 @@ In  our initial code we use if statements to obtain the values on the 'All Stock
 
 ## Refactored Code: An Advantage and Disadvantage
 ### Advantage
-One advantage of refactored code is the fact that by refactoring it, you are consolidating the code causing it to work moore efficiently. 
+One advantage of refactored code is the fact that by refactoring it, you are consolidating the code causing it to work moore efficiently and run faster. 
 
 ### Disadvantage
 One disadvantage of refactored code is that this newly refactored code may introduce new bugs into the code base. By touching the existing code that works, any changes could have downstream impacts which can be expensive to correct.
